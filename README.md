@@ -10,26 +10,19 @@ A template for creating Fancade editor scripts.
 
 - [ ] Find & replace `fc-template` with the name of this repository
 - [ ] Find & replace the description with a proper one
-- [ ] Optionally make the [installation guide](#installation) install as `devDependency`
-- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/fc-template/settings/secrets/actions/new)
 - [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
 
 ## Installation
 
+1. Download the tarball from the [latest release](https://github.com/brycked/fc-template/releases/latest)
+2. Extract the downloaded tarball
+
 ```sh
-npm install @bricked/fc-template
-yarn add @bricked/fc-template
-pnpm add @bricked/fc-template
+tar -xvzf bricked-fc-template-<version>.tgz
 ```
 
-<!--
-```sh
-npm install --save-dev @bricked/fc-template
-yarn add --dev @bricked/fc-template
-pnpm add --dev @bricked/fc-template
-```
--->
+3. Open the desired script and paste it in the Fancade editor
 
 ## Usage
 
