@@ -1,17 +1,17 @@
 {
-  "name": "@bricked/ts-template",
+  "name": "@bricked/fc-template",
   "private": false,
-  "description": "A ts-template for my projects.",
+  "description": "A fc-template for my projects.",
   "keywords": [
-    "ts-template"
+    "fc-template"
   ],
-  "homepage": "https://github.com/brycked/ts-template#readme",
+  "homepage": "https://github.com/brycked/fc-template#readme",
   "bugs": {
-    "url": "https://github.com/brycked/ts-template/issues"
+    "url": "https://github.com/brycked/fc-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brycked/ts-template.git"
+    "url": "git+https://github.com/brycked/fc-template.git"
   },
   "license": "MIT",
   "author": "Bricked",
