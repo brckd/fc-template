@@ -1,7 +1,9 @@
 {
-  "extends": "@bricked/ts-config/node",
+  "extends": "@bricked/ts-config/dom",
   "compilerOptions": {
     "rootDir": "src/",
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "lib": ["es5"],
+    "types": ["fancade-editor"]
   }
 }
