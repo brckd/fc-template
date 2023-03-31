@@ -15,14 +15,23 @@ A template for creating Fancade editor scripts.
 
 ## Installation
 
-1. Download the tarball from the [latest release](https://github.com/brycked/fc-template/releases/latest)
-2. Extract the downloaded tarball
+### Install as dependency
+
+Install the package from npm to use it in your local editor scripts.
 
 ```sh
-tar -xvzf bricked-fc-template-<version>.tgz
+npm install @bricked/ts-template
+yarn add @bricked/ts-template
+pnpm add @bricked/ts-template
 ```
 
-3. Open the desired script and paste it in the Fancade editor
+### Install in Fancade editor
+
+1. Head to the [npm build](https://www.npmjs.com/package/@bricked/fc-template?activeTab=code) or extract the [latest release](https://github.com/brycked/fc-template/releases/latest)
+
+2. Find the desired script in `dist/` and open it
+
+3. Paste the code directly in the Fancade editor
 
 ## Usage
 

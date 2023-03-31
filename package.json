@@ -1,6 +1,6 @@
 {
   "name": "@bricked/fc-template",
-  "private": true,
+  "private": false,
   "description": "A fc-template for my projects.",
   "keywords": [
     "fc-template"
