@@ -15,12 +15,11 @@
   },
   "license": "MIT",
   "author": "Bricked",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "npx parcel build",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
     "prepare": "npx husky install",
-    "watch": "npx tsc -w"
+    "watch": "npx parcel watch"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -44,12 +43,18 @@
     "dryRun": true,
     "extends": "@bricked/semantic-release-config"
   },
+  "dependencies": {
+    "core-js": "^3.29.1",
+    "hello-world-emo": "^3.0.2"
+  },
   "devDependencies": {
     "@bricked/eslint-config": "^1.0.0",
     "@bricked/prettier-config": "^1.0.0",
     "@bricked/semantic-release-config": "^1.0.0",
     "@bricked/ts-config": "^1.2.2",
     "@commitlint/config-conventional": "^17.4.4",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@types/core-js": "^2.5.5",
     "@types/fancade-editor": "^1.12.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
@@ -59,11 +64,18 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
+    "parcel": "^2.8.3",
     "prettier": "^2.8.7",
+    "process": "^0.11.10",
     "sort-package-json": "^2.4.1",
     "typescript": "^5.0.2"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "targets": {
+    "index": {
+      "source": "./src/index.ts"
+    }
   }
 }
