@@ -16,10 +16,9 @@
   "license": "MIT",
   "author": "Bricked",
   "scripts": {
-    "build": "npx parcel build",
+    "build": "npx esbuild --bundle --minify src/index.ts --outdir=dist/",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
-    "prepare": "npx husky install",
-    "watch": "npx parcel watch"
+    "prepare": "npx husky install"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -44,8 +43,7 @@
     "extends": "@bricked/semantic-release-config"
   },
   "dependencies": {
-    "core-js": "^3.29.1",
-    "hello-world-emo": "^3.0.2"
+    "core-js": "^3.29.1"
   },
   "devDependencies": {
     "@bricked/eslint-config": "^1.0.0",
@@ -58,13 +56,13 @@
     "@types/fancade-editor": "^1.12.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
+    "esbuild": "^0.17.15",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
-    "parcel": "^2.8.3",
     "prettier": "^2.8.7",
     "process": "^0.11.10",
     "sort-package-json": "^2.4.1",
@@ -72,10 +70,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "targets": {
-    "index": {
-      "source": "./src/index.ts"
-    }
   }
 }
