@@ -44,3 +44,13 @@ pnpm add @bricked/ts-template
 Pulls to the repository will automatically be built with [semantic-release](https://github.com/semantic-release/npm).
 The built package can be found on [npm](https://www.npmjs.com/package/@bricked/fc-template?activeTab=code) or in the
 [latest github release](https://github.com/brycked/fc-template/releases/latest).
+
+### Building Locally
+
+The package can also be built locally using the `build` script.
+
+```sh
+npm run build
+yarn run build
+pnpm run build
+```
