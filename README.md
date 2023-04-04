@@ -8,7 +8,8 @@ A template for creating Fancade editor scripts.
 
 ## ToDo
 
-- [ ] Find & replace `fc-template` with the name of this repository
+- [ ] [Create](https://github.com/brycked/fc-template/generate) a new repository from this template
+- [ ] Find & replace `fc-template` with the name of the new repository
 - [ ] Find & replace the description with a proper one
 - [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
