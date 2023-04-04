@@ -46,7 +46,7 @@
   "devDependencies": {
     "@bricked/eslint-config": "^1.0.0",
     "@bricked/prettier-config": "^1.0.0",
-    "@bricked/semantic-release-config": "^1.0.0",
+    "@bricked/semantic-release-config": "^1.1.0",
     "@bricked/ts-config": "^1.2.2",
     "@commitlint/config-conventional": "^17.4.4",
     "@parcel/transformer-typescript-types": "^2.8.3",
@@ -64,7 +64,7 @@
     "process": "^0.11.10",
     "sort-package-json": "^2.4.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.3"
   },
   "optionalDependencies": {
     "core-js": "^3.30.0"
