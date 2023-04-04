@@ -28,7 +28,7 @@ pnpm add @bricked/ts-template
 
 ### Install in Fancade editor
 
-1. Head to the [npm build](https://www.npmjs.com/package/@bricked/fc-template?activeTab=code) or extract the [latest release](https://github.com/brycked/fc-template/releases/latest)
+1. Find the [latest build](#building-publicly) or [build locally](#building-locally)
 
 2. Find the desired script in `dist/` and open it
 
