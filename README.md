@@ -36,3 +36,11 @@ pnpm add @bricked/ts-template
 ## Usage
 
 `fc-template` can be used as a template for creating Fancade editor scripts.
+
+## Building
+
+### Building Publicly
+
+Pulls to the repository will automatically be built with [semantic-release](https://github.com/semantic-release/npm).
+The built package can be found on [npm](https://www.npmjs.com/package/@bricked/fc-template?activeTab=code) or in the
+[latest github release](https://github.com/brycked/fc-template/releases/latest).
