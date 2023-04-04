@@ -16,9 +16,10 @@
   "license": "MIT",
   "author": "Bricked",
   "scripts": {
-    "build": "npx esbuild --bundle --minify src/index.ts --outdir=dist/",
+    "build": "npx tsup",
     "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "watch": "npx tsup --watch"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -56,7 +57,6 @@
     "@types/fancade-editor": "^1.12.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
-    "esbuild": "^0.17.15",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
@@ -66,6 +66,7 @@
     "prettier": "^2.8.7",
     "process": "^0.11.10",
     "sort-package-json": "^2.4.1",
+    "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   },
   "publishConfig": {
