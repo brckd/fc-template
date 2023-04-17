@@ -19,6 +19,7 @@ A template for creating Fancade editor scripts.
 ### Install as dependency
 
 Install the package from npm to use it in your local editor scripts.
+[Node.js](https://nodejs.org/) 16.14.0 or newer is required.
 
 ```sh
 npm install @bricked/ts-template
