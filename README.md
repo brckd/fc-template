@@ -11,6 +11,7 @@ A template for creating Fancade editor scripts.
 - [ ] [Create](https://github.com/brycked/fc-template/generate) a new repository from this template
 - [ ] Find & replace `fc-template` with the name of the new repository
 - [ ] Find & replace the description with a proper one
+- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/fc-template/settings/secrets/actions/new)
 - [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
 
