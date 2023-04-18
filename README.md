@@ -2,7 +2,7 @@
 
 [![license](https://custom-icon-badges.demolab.com/github/license/brycked/fc-template?logo=law)](LICENSE.md)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
-[![version](https://img.shields.io/github/v/release/brycked/fc-template?display_name=tag&logo=github)](package.json)
+[![version](https://img.shields.io/npm/v/@bricked/fc-template?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/fc-template)
 
 A template for creating Fancade editor scripts.
 
