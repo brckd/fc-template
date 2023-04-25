@@ -3,10 +3,11 @@ import { polyfillNode } from "esbuild-plugin-polyfill-node";
 
 export default defineConfig({
   esbuildPlugins: [polyfillNode()],
-  entry: ["src/**/*.ts"],
   tsconfig: "src/tsconfig.json",
+  entry: ["src/**/*.ts"],
+  clean: true,
+  bundle: true,
+  minify: true,
   sourcemap: true,
   dts: true,
-  minify: true,
-  clean: true,
 });
