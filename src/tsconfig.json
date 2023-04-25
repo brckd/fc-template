@@ -4,6 +4,6 @@
     "rootDir": ".",
     "outDir": "../dist",
     "lib": ["es5"],
-    "types": ["fancade-editor"]
+    "types": ["fancade-editor", "node/buffer"]
   }
 }
