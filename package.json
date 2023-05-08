@@ -48,7 +48,7 @@
     "@bricked/prettier-config": "^1.0.0",
     "@bricked/semantic-release-config": "^1.1.0",
     "@bricked/ts-config": "^1.2.3",
-    "@commitlint/config-conventional": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.3",
     "@parcel/transformer-typescript-types": "^2.8.3",
     "@types/core-js": "^2.5.5",
     "@types/fancade-editor": "^1.12.0",
