@@ -65,7 +65,7 @@
     "process": "^0.11.10",
     "sort-package-json": "^2.4.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.2.2"
   },
   "optionalDependencies": {
     "core-js": "^3.30.2"
