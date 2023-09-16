@@ -1,6 +1,6 @@
 # @bricked/fc-template
 
-[![license](https://custom-icon-badges.demolab.com/github/license/brycked/fc-template?logo=law)](LICENSE.md)
+[![license](https://custom-icon-badges.demolab.com/github/license/brckd/fc-template?logo=law)](LICENSE.md)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![version](https://img.shields.io/npm/v/@bricked/fc-template?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/fc-template)
 
@@ -8,10 +8,10 @@ A template for creating Fancade editor scripts.
 
 ## ToDo
 
-- [ ] [Create](https://github.com/brycked/fc-template/generate) a new repository from this template
+- [ ] [Create](https://github.com/brckd/fc-template/generate) a new repository from this template
 - [ ] Find & replace `fc-template` with the name of the new repository
 - [ ] Find & replace the description with a proper one
-- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brycked/fc-template/settings/secrets/actions/new)
+- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brckd/fc-template/settings/secrets/actions/new)
 - [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
 - [ ] Remove this section
 
@@ -46,7 +46,7 @@ pnpm add @bricked/ts-template
 
 Pulls to the repository will automatically be built with [semantic-release](https://github.com/semantic-release/npm).
 The built package can be found on [npm](https://www.npmjs.com/package/@bricked/fc-template?activeTab=code) or in the
-[latest github release](https://github.com/brycked/fc-template/releases/latest).
+[latest github release](https://github.com/brckd/fc-template/releases/latest).
 
 ### Building Locally
 
